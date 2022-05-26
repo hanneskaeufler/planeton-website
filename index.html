@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Planeton - Space Invaders iOS App</title>
+    <meta
+      name="description"
+      content="A simple HTML5 Template for new projects."
+    />
+    <meta name="author" content="Hannes Käufler" />
+
+    <meta property="og:title" content="Planeton - Space Invaders iOS App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://planeton.vercel.app" />
+    <meta
+      property="og:description"
+      content="Planeton - Space Invaders iOS App"
+    />
+    <meta property="og:image" content="image.png" />
+
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <style>
+      body,
+      html {
+        background: rgb(13, 23, 73);
+        background: radial-gradient(
+          circle,
+          rgba(13, 23, 73, 1) 0%,
+          rgba(2, 0, 33, 1) 100%
+        );
+      }
+
+      h1 {
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 6rem;
+        background: rgb(131, 58, 180);
+        background: linear-gradient(
+          90deg,
+          rgba(131, 58, 180, 1) 0%,
+          rgba(253, 29, 29, 1) 50%,
+          rgba(252, 176, 69, 1) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      main {
+        max-width: 1280px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div style="background: red"></div>
+      <div style="background: green">
+        <h1>Planeton</h1>
+      </div>
+    </main>
+
+    <div class="planet planet-a"></div>
+    <div class="planet planet-b"></div>
+  </body>
+</html>
